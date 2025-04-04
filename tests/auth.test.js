@@ -100,8 +100,8 @@ describe('Operações CRUD de Usuários', () => {
       .get('/api/users')
       .set('Authorization', `Bearer ${authToken}`); // Formato correto
     
-    console.log('Response status:', response.statusCode);
-    console.log('Response body:', response.body);
+    // console.log('Response status:', response.statusCode);
+    // console.log('Response body:', response.body);
     
     expect(response.statusCode).toBe(200);
   });
